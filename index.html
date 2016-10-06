@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//d3js.org/topojson.v1.min.js"></script>
+  <script src="javascripts/viewport.js"></script>
+  <script src="javascripts/turf.js"> </script> 
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.js'></script>
+  
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <div id="map"></div>
+  <svg id="overlay2"></svg>
+  <div id="control">
+    <!-- begin at 0,0 -->
+    	<div class="margin10"> 
+	    	<span class = "arrow glyphicon glyphicon-chevron-left" id = "previousDay">   </span> 
+	     	<span class = "inline-label" id = "day"> Sunday </span> 
+	     	<span class="arrow glyphicon glyphicon-chevron-right" id="nextDay">  </span>  
+    	</div> 
+    	<div class="margin10"> 
+	     	<span class="arrow arrow glyphicon glyphicon-chevron-left" id="previousHour">   </span> 
+	     	<span class="inline-label" id = "hour"> 9:00 PM </span> 
+	     	<span class="arrow glyphicon glyphicon-chevron-right" id="nextHour">  </span> 
+     	</div>  
+  </div> 
+</body>
+   <script src="javascripts/311_noise.js"></script>
+</html> 
