@@ -53,7 +53,7 @@ function main(geojson, data){
     // Add a GeoJSON source containing the state polygons.
     map.addSource('states', {
         'type': 'geojson',
-        'data': '../data/manhattan.geojson'
+        'data': 'manhattan.geojson'
     });
 
     // Add a layer showing the state polygons.
