@@ -21,10 +21,10 @@ svg {
   position: absolute;
   right: 30px;
   bottom: 40px;
-  width: 300px;
+  width: 280px;
   border-radius: 3px;
   text-align: center;
-  background: none;
+  background: rgba(1, 1, 1, 0.75);
 }
 
 
@@ -83,7 +83,7 @@ svg {
 }
 
 .inline-label{
-  color: orange;
+  color: white;
   margin: 12px;
   height: 30px;
   display: inline;
