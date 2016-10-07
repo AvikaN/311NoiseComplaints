@@ -17,21 +17,73 @@ svg {
 
 #control {
   font-size: 17px;
-  box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.5), 0 6px 20px 0 rgba(1, 1, 1, 0.5);
   padding: 12px;
   position: absolute;
   right: 30px;
   bottom: 40px;
   width: 300px;
   border-radius: 3px;
-  border: solid 2px orange;
   text-align: center;
-  background: white;
+  background: none;
 }
 
 
+#legend{
+  text-align: center;
+  font-size: 17px;
+  padding: 12px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+  width: 235px;
+  border-radius: 3px;
+  background: rgba(1, 1, 1, 0.75);
+  color: white;
+}
+
+.color-tab{
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 1px; 
+  border: grey solid 1px;
+  margin: 4px;
+}
+
+#color-1{
+  background: #FF0000;
+}
+
+#color-2{
+  background: #FF5000;
+}
+
+#color-3{
+  background: #FF6000;
+}
+
+#color-4{
+  background: #FF7000;
+}
+
+#color-5{
+  background: #FF8000;
+}
+
+#color-6{
+  background: #FFB000;
+}
+
+#color-7{
+  background: #FFC000;
+}
+
+#color-8{
+  background: green;
+}
+
 .inline-label{
-  color: #555555;
+  color: orange;
   margin: 12px;
   height: 30px;
   display: inline;
@@ -44,6 +96,7 @@ svg {
 .arrow{
   border: solid 1px orange;
   padding: 5px;
+  color: orange;
   border-radius: 2px;
 }
 
@@ -51,7 +104,6 @@ svg {
   cursor: pointer;
   border: solid 1px black;
 }
-
 
 #intro{
   position: absolute;

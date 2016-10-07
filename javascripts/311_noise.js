@@ -17,8 +17,8 @@ function closeIntro(){
 function main(geojson, data){
 	//used as counter to caluclate day + hour; 
 	//you could make a ledgend for the color 
-	var colors = d3.scale.quantize().domain([70, 1]).range(["#FF0000", "#FF1000", "#FF2000", "#FF3000", "#FF4000", "#FF5000", 
-			"#FF6000", "#FF7000", "#FF8000", "#FF9000", '#FFA000', "#FFB000", "#FFC000"]);
+	var colors = d3.scale.quantize().domain([70, 1]).range(["#FF0000", "#FF5000", 
+			"#FF6000", "#FF7000", "#FF8000", "#FFB000", "#FFC000"]);
 	var DAY = 0; 
 	//9PM - 9AM
 	//hour 21 is 9PM 
